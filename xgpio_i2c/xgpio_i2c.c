@@ -400,7 +400,7 @@ u8  i2c_recv_byte(i2c_no i2c)
 u8  i2c_recv_ack(i2c_no i2c, stretch_mode st_mode)
 {
 	u8 check;
-	u16 ucErrTime=0;
+	u32 ucErrTime=0;
 	u32 sda;
 	u32 scl;
 	u32 ret;
